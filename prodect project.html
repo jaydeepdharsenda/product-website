@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/Jeel/Downloads/index%20(1).html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo {
+            height: 200px;
+        }
+
+        #demo {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap
+        }
+
+        #demo>div {
+            width: 30%;
+        }
+        .navbar{
+         display: flex;
+         align-items: center;
+         background-color: rgb(77, 77, 224);
+         
+        }
+        .navbar>h1{
+            color: white;
+            font-size: 40px;
+            margin-left: 60px;
+        }
+        .navbar>input{
+            height: 50px;
+            width: 450px;
+            margin-left: 70px;
+            border: none;
+        }
+        
+        .navbar>button{
+            height: 53px;
+            width: 150px;
+            background-color: rgb(247, 247, 18);
+            color: black;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Flipkard</h1>
+        <input type="text" placeholder="so,what are the  top 5 searches?">
+        <button>SEARCH</button>
+        <h1>prodect</h1>
+
+    </div>
+    <div id="demo">
+
+        <div>
+            <h1>leptop</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/leptop.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+
+        <div>
+            <h1>mobile</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/th (1).jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+
+        <div>
+            <h1>tv</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/tv.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        <div>
+            <h1>watch</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/th (2).jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        <div>
+            <h1>Watch</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/Watch.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        <div>
+            <h1>spiker</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/spiker.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        <div>
+            <h1>spiker</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/headphone.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        <div>
+            <h1>spiker</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Desktop/Ac.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        <div>
+            <h1>shoes</h1>
+            <img class="photo" src="C:\Users\Jeel\OneDrive\Pictures\Screenshots/shoes.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla
+                voluptatum esse facere corporis molestiae, error est quo reiciendis non quasi vel dicta animi tenetur
+                nemo?</p>
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script>
+        let div = document.getElementById('demo');
+        const cricketer = [
+            {
+                name: "leptop",
+                img: "leptop.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "mobile",
+                img: "th (1).jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "tv",
+                img: "tv.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "watch",
+                img: "th (2).jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "watch",
+                img: "Watch.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "spiker",
+                img: "spiker.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "headphone",
+                img: "headphone.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "Ac",
+                img: "Ac.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+            {
+                name: "shoes",
+                img: "shoes.jpg",
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus minus vitae eius excepturi, nulla voluptatum esse facere corporis.'
+            },
+        ];
+
+
+        let i;
+        for (i = 0; i < cricketer.length; i++) {
+            div.innerHTML += `
+        <div>
+          <h1>${cricketer[i].name}</h1>
+          <img class="photo" src="${cricketer[i].img}"/>
+          <p>${cricketer[i].desc}</p>
+        </div>
+        `;
+        }
+
+    </script>
+</body>
+
+</html>
